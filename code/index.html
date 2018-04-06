@@ -1,41 +1,61 @@
 <html>
-    <head>
-        <title>Space Wolves</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <div id='logo'><img src='../images/logo.png' class='logo-img'/></div>
-        <header>
-            <img src='../images/main.jpg'/>
-            <div id='main-menu-wrapper'></div>
-        </header>
-        <div id='side-menu'>
-            <div class='side-menu-item'>
-                <p>Album</p>
-            </div>
-            <div class='side-menu-item'>
-                <p>Blog</p>
-            </div>
-            <div class='side-menu-item'>
-                <p>About</p>
+
+<head>
+    <title>Space Wolves</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div id='logo'>
+        <img src='../images/logo.png' class='logo-img' />
+    </div>
+    <header>
+        <img src='../images/main.jpg' />
+        <div id='main-menu-wrapper'></div>
+    </header>
+    <div id='side-menu'>
+        <div class='side-menu-item'>
+            <p>Album</p>
+        </div>
+        <div class='side-menu-item'>
+            <p>Blog</p>
+        </div>
+        <div class='side-menu-item'>
+            <p>About</p>
+        </div>
+    </div>
+    <div id='post-wrapper'>
+        <div class="card post">
+            <img class="card-img-top post-img" src="../images/primarch.jpg" alt="Card image cap">
+            <div class="card-body">
+                <p class="card-title">About Leman Russ</p>
+                <p class="card-text">Some facts, that you would like to learn about The Great Wolf</p>
             </div>
         </div>
-        <div id='post-wrapper'>
-            <div class='post'>
-                <img src='../images/primarch.jpg' class='post-img'/>
-                <p class='post-header'>About Leman Russ</p>
-                <p class='post-annotation'>Some facts, that you would like to learn about The Great Wolf</p>
-            </div>
-            <div class='post'>
-                <img src='../images/heraldics.jpg' class='post-img'/>
-                <p class='post-header'>Heraldics</p>
-                <p class='post-annotation'>Learn about Legion's heraldics: chapters, packs, etc.</p>
-            </div>
-            <div class='post'>
-                <img src='../images/wolves.jpg' class='post-img'/>
-                <p class='post-header'>Fenrisian Wolves</p>
-                <p class='post-annotation'>More about gorgeous Fenrisian Wolves, the most dangerous predator of Imperium</p>
+        <div class='post card'>
+            <img src='../images/heraldics.jpg' class='post-img card-img-top' />
+            <div class="card-body">
+                <p class='post-header card-title'>Heraldics</p>
+                <p class='post-annotation card-text'>Learn about Legion's heraldics: chapters, packs, etc.</p>
             </div>
         </div>
-    </body>
+        <div class='post card'>
+            <img src='../images/wolves.jpg' class='post-img card-img-top' />
+            <div class="card-body"> 
+                <p class='post-header card-title'>Fenrisian Wolves</p>
+                <p class='post-annotation card-text'>More about gorgeous Fenrisian Wolves, the most dangerous predator of Imperium</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

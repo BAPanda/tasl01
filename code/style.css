@@ -11,9 +11,9 @@ header {
 
 .post {
   height: 675px;
-  min-width: 370px; }
+  min-width: 370px;
+  width: 18rem; }
 
-.post-wrapper {
+#post-wrapper {
   flex-wrap: wrap;
-  display: flex;
-  min-width: 390px; }
+  display: flex; }

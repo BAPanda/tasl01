@@ -1,0 +1,28 @@
+$min-width: 370px;
+
+.logo-img{
+    height: 100px;
+    width: 100px;
+}
+
+header{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.post-img {
+    transform: scale(2, 2);    
+}
+
+.post {
+    height: 675px;
+    min-width: $min-width;
+
+}
+
+.post-wrapper {
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+

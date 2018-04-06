@@ -6,14 +6,15 @@ header {
   margin-left: 20px;
   margin-bottom: 20px; }
 
-.post-img {
-  transform: scale(0.5, 0.5); }
+.post-img-wrapper {
+  height: 375px; }
 
 .post {
-  height: 675px;
   min-width: 370px;
-  width: 18rem; }
+  width: 18rem;
+  margin: 10px; }
 
 #post-wrapper {
   flex-wrap: wrap;
-  display: flex; }
+  display: flex;
+  margin: 20px; }

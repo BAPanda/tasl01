@@ -1,4 +1,5 @@
 $min-width: 370px;
+$margin: 10px;
 
 .logo-img{
     height: 100px;
@@ -11,18 +12,17 @@ header{
 }
 
 .post-img {
-    transform: scale(2, 2);    
+    transform: scale(0.5, 0.5);    
 }
 
 .post {
     height: 675px;
     min-width: $min-width;
-
 }
 
 .post-wrapper {
     flex-wrap: wrap;
     display: flex;
-    
+    min-width: $min-width + 2 * $margin;
 }
 

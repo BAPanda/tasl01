@@ -1,6 +1,12 @@
 $min-width: 370px;
 $margin-base: 10vw;
 
+.adjust-base {
+    width: 80vw;
+    margin-left: $margin-base;
+    min-width: $min-width;
+}
+
 .logo-img{
     height: 100px;
     width: 100px;
@@ -23,11 +29,5 @@ header{
 #post-wrapper {
     flex-wrap: wrap;
     display: flex;
-    margin: $margin-base;
     justify-content: space-between;
-}
-
-.head-img {
-    width: 80vw;
-    margin: $margin-base;
 }

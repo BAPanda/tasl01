@@ -1,5 +1,5 @@
 $min-width: 370px;
-$margin: 10px;
+$margin-base: 10vw;
 
 .logo-img{
     height: 100px;
@@ -18,12 +18,16 @@ header{
 .post {
     min-width: $min-width;
     width: 18rem;
-    margin: 10px;
 }
 
 #post-wrapper {
     flex-wrap: wrap;
     display: flex;
-    margin: 20px;
+    margin: $margin-base;
+    justify-content: space-between;
 }
 
+.head-img {
+    width: 80vw;
+    margin: $margin-base;
+}

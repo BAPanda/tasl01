@@ -11,10 +11,14 @@ header {
 
 .post {
   min-width: 370px;
-  width: 18rem;
-  margin: 10px; }
+  width: 18rem; }
 
 #post-wrapper {
   flex-wrap: wrap;
   display: flex;
-  margin: 20px; }
+  margin: 10vw;
+  justify-content: space-between; }
+
+.head-img {
+  width: 80vw;
+  margin: 10vw; }
